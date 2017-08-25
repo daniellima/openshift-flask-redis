@@ -18,3 +18,6 @@ def hello():
 def add(text, value):
     r.set(text, value)
     return text+' has been received'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port='8080')
